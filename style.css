@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(160, 161, 94);
+    margin: 0 auto;
+    max-width: 700px;
+    height: 610px;
+    border-radius: 10px;
+}
+#btn{
+    border-style: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+#reset:hover{
+    background-color: black;
+    color: white;
+}
+#reset{
+    border-style: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;        
+}
+.escolha{
+    cursor: pointer;
+}
+#placar{
+    font-size: 20px;
+    font-weight: 800;
+}
