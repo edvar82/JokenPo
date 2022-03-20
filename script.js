@@ -5,6 +5,9 @@ const pedra = document.querySelector("#pedra");
 const tesoura = document.querySelector("#tesoura");
 const pc = document.querySelector("#pc");
 const placar = document.querySelector("#placar");
+let vit = 0;
+let emp = 0;
+let der = 0;
 
 
 btn.addEventListener("click", jogar);
@@ -20,9 +23,7 @@ function jogar() {
     } else {
         //Lógica do computador
         var sorteio = Math.floor(Math.random() * 3);
-        let vit = 0;
-        let emp = 0;
-        let der = 0;
+
 
         switch (sorteio) {
             case 0:
